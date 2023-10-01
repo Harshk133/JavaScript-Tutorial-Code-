@@ -1,3 +1,5 @@
+// Todo: Apply stayling into the console statements!!
+
 // Ways to write your javascript script!!
 
 // Write
@@ -26,6 +28,7 @@ console.dir(a);
 var style = `color: orange; font-weight: bold;`;
 console.log("%cWelcome, to my channel!!", style);
 console.groupEnd();
+
 
 
 

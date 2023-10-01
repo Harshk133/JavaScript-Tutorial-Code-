@@ -9,14 +9,72 @@
             document.write("Hello, world! <br>");
             document.write("Welcome, to JavaScript Course!!");
         </script> -->
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+
+            .container{
+                background-color: orange;
+                padding: 7px;
+            }
+
+            .box{
+                background-color: yellow;
+                padding: 7px;
+            }
+
+            .bracket-box-1{
+                background-color: cadetblue;
+                padding: 7px;
+            }
+
+            .bracket-box-2{
+                background-color: burlywood;
+            }
+        </style>
     </head>
 
     <body> 
+        <h2><tt><i>JavaScript Variables!</i></tt></h2>
+        <ul>
+            <li><code>let</code></li>
+            <li><code>var</code></li>
+            <li><code>const</code></li>
+        </ul>
+        <br>
+        <div class="container">
+            <tt>file.js</tt>
+            <div class="box">
+                <code>var a = 7;</code>
+                <div class="bracket-box-1">
+                    &nbsp;<b>{</b> <br>
+                        &nbsp;&nbsp;&nbsp;<code>let a = 8;</code>
+                        <br>
+                        &nbsp;&nbsp;&nbsp;<code>console.log(a);</code>
+                        <br>
+                            <div class="bracket-box-2">
+                                &nbsp;&nbsp;<b>{</b> <br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;<code>let a = 18;</code>
+                                    <br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;<code>console.log(a);</code>
+                                    <br>
+                                &nbsp;&nbsp;<b>}</b> <br>
+                            </div>
+                    &nbsp;<b>}</b>
+                </div>
+                <code>console.log(a);</code>
+            </div>
+        </div>
         <br>  
         <!-- ** Inline Javascript! ** -->
         <!-- <a href="javascript: alert('Welcome, user!');">Click!!</a>  -->
 
         <!-- ** In the External File! ** -->
-        <script src="javascript/Program_1.js"></script>
+        <!-- <script src="javascript/Program_1.js"></script> -->
+
+        <script src="javascript/Program_2.js"></script>
     </body>
+
 </html>
